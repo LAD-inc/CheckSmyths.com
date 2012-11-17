@@ -102,7 +102,8 @@ function get_product_price($data)
 {
 	// Get price
 	//preg_match ("/<h2>.{1}([^<]*)</", $data, $match);
-	preg_match ("/<h2>\D*([0-9]*\.{1}[0-9]{0,2})</", $data, $match);
+	//preg_match ("/<h2>\D*([0-9]*\.{1}[0-9]{0,2})</", $data, $match);
+	preg_match ("/<td>\D*([0-9]*\.{1}[0-9]{0,2})<\/td>/", $data, $match);
 	return $match[1];
 
 }
