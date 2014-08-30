@@ -17,9 +17,11 @@ $storeId = $_GET["storeId"];
 //we should validate store ID
 //$storeId = validateProductId($storeId);
 
-$isNI = $_GET["NI"];
+//$isNI = $_GET["NI"];
 
-$check = $_GET["checkProduct"];
+//$check = $_GET["checkProduct"];
+
+$isNI = "false";
 
 if ($isNI == "true")
 {

@@ -71,7 +71,8 @@ function getIrishStores()
 					"Waterford - Cork Road" => "I018",
 					"Westmeath - Athlone" => "I024",
 					"Wicklow - Bray" => "I003",
-					"Donegal - Letterkenny" => "I031"
+					"Donegal - Letterkenny" => "I031",
+					"On-Line - Smyths.ie" => "EI01"
 					);
 					
 	return $stores;

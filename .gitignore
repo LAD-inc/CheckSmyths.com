@@ -2,6 +2,8 @@
 ## Eclipse
 #################
 
+secret.php
+
 *.pydevproject
 .project
 .metadata
